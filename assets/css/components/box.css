@@ -8,7 +8,10 @@
 }
 
 .box p {
-    font-size: 0.9rem;
-
     margin-bottom: 10px;
+}
+
+.box .box-footer {
+    display: flex;
+    gap: 5px;
 }
