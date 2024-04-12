@@ -4,8 +4,6 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 10px 0;
-
     /* place on top */
     position: fixed;
     top: 0;
@@ -53,4 +51,15 @@
 
 #navbar #links a:hover {
     color: var(--muted-text-colour);
+}
+
+@media (max-width: 1000px) {
+    #navbar {
+        flex-direction: column;
+        padding: 25px 10px;
+    }
+
+    #navbar #title a {
+        margin-bottom: 10px;
+    }
 }

@@ -36,3 +36,9 @@
     background-color: initial;
     color: var(--text-colour);
 }
+
+@media (max-width: 1000px) {
+    .buttons {
+        flex-direction: column;
+    }
+}
