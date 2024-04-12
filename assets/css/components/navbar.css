@@ -8,6 +8,8 @@
     position: fixed;
     top: 0;
 
+    padding: 10px 0;
+
     /* place in center horizontally */
     left: 50%;
     transform: translateX(-50%);
