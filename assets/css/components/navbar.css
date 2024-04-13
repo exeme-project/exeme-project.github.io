@@ -31,10 +31,6 @@
     font-weight: 600;
 }
 
-#navbar #title a:hover {
-    text-decoration-color: transparent;
-}
-
 #navbar #title a img {
     border-radius: 15%;
 }
